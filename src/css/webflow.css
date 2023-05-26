@@ -1164,10 +1164,17 @@ textarea.w-select {
  *    underneath the lightbox.
  */
 .w-lightbox-backdrop {
+  color: #000;
   cursor: auto;
+  font-family: serif;
+  font-size: medium;
   font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
   letter-spacing: normal;
+  line-height: normal;
   list-style: disc;
+  text-align: start;
   text-indent: 0;
   text-shadow: none;
   text-transform: none;
@@ -1818,5 +1825,5 @@ textarea.w-select {
   display: none !important;
 }
 .wf-layout-layout {
-  display: grid;
+  display: grid !important;
 }

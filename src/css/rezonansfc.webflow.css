@@ -1214,11 +1214,15 @@ li {
   left: 20px;
 }
 
-.text-block-23 {
+.promocja_bld {
   text-align: center;
   text-transform: uppercase;
   margin-top: 10px;
   font-weight: 700;
+}
+
+.promocja_bld.off {
+  display: none;
 }
 
 .nad_logo {

@@ -1,6 +1,45 @@
+:root {
+  --white: white;
+  --firebrick: #84362e;
+  --coral: rgba(255, 131, 59, .46);
+  --royal-blue: #547b8b;
+  --salmon-2: #fc7d64;
+  --dim-gray: #735260;
+  --sandy-brown: #f1e8ce;
+  --dark-slate-grey: rgba(39, 67, 75, .72);
+  --dim-gray-2: #95b1aa;
+  --dark-slate-gray: #718b91;
+  --dark-slate-gray-2: #404047;
+  --indian-red: #de4b29;
+  --light-sky-blue: #7ebff8;
+  --tomato: #e64c40;
+  --silver: #bec3c7;
+  --steel-blue-2: #2e80b6;
+  --medium-violet-red: rgba(180, 86, 126, .8);
+  --light-sea-green-3: rgba(0, 192, 177, .76);
+  --dark-slate-grey-2: #133c49;
+  --steel-blue: #3b99d9;
+  --dark-khaki: #a8d069;
+  --medium-sea-green: #30ad64;
+  --light-sea-green: #25ccbf;
+  --light-sea-green-2: #ece0c6;
+  --khaki: #ed8b2d;
+  --sandy-brown-2: #deaa5a;
+  --salmon: #fd7072;
+  --tan: #d39f9a;
+  --indian-red-2: #af4173;
+  --brown: #822e50;
+  --white-smoke: #ecf0f1;
+  --white-smoke-2: #f0f0f0;
+  --white-smoke-3: #edeff2;
+  --steel-blue-3: rgba(0, 115, 194, .5);
+  --steel-blue-4: #3f7397;
+  --light-slate-grey: #7b9dac;
+}
+
 body {
   height: 100%;
-  color: #fff;
+  color: var(--white);
   font-family: museo-sans-rounded, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -27,8 +66,9 @@ h3 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: Exo, sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
 }
 
@@ -97,7 +137,7 @@ li {
 }
 
 .hamburger-button {
-  background-color: #84362e;
+  background-color: var(--firebrick);
   border-radius: 8px;
   margin-top: 5px;
   margin-right: 5px;
@@ -118,16 +158,16 @@ li {
 }
 
 .section.badanie {
-  background-color: rgba(255, 131, 59, .46);
+  background-color: var(--coral);
 }
 
 .section.badanie.b {
-  background-color: #547b8b;
+  background-color: var(--royal-blue);
   padding-top: 0;
 }
 
 .section.kontakt {
-  background-color: #fc7d64;
+  background-color: var(--salmon-2);
 }
 
 .section.dojazd {
@@ -144,7 +184,7 @@ li {
 }
 
 .section.zakres {
-  background-color: #735260;
+  background-color: var(--dim-gray);
 }
 
 .section.reklama {
@@ -204,13 +244,13 @@ li {
 }
 
 .section-heading.centered {
-  color: #f1e8ce;
+  color: var(--sandy-brown);
   text-align: center;
   text-transform: uppercase;
 }
 
 .section-subheading.center {
-  color: #f1e8ce;
+  color: var(--sandy-brown);
   text-align: center;
   font-family: Droid Sans, sans-serif;
   font-size: 19px;
@@ -218,7 +258,7 @@ li {
 }
 
 .section-subheading.center.kontakt {
-  color: #fff;
+  color: var(--white);
   font-family: museo-sans-rounded, sans-serif;
   font-size: 32px;
   font-weight: 500;
@@ -245,7 +285,7 @@ li {
 
 .form-field.text-area {
   min-height: 110px;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .form-wrapper.squeezed {
@@ -289,7 +329,7 @@ li {
 }
 
 .nav-link {
-  color: #fff;
+  color: var(--white);
   text-align: left;
   text-transform: uppercase;
   margin-left: 0;
@@ -306,14 +346,14 @@ li {
 }
 
 .nav-link.w--current {
-  color: #95b1aa;
+  color: var(--dim-gray-2);
   text-align: left;
   margin-left: 41px;
 }
 
 .nav-menu {
   float: none;
-  background-color: rgba(39, 67, 75, .72);
+  background-color: var(--dark-slate-grey);
   flex-direction: column;
   display: flex;
   position: fixed;
@@ -344,7 +384,7 @@ li {
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(113, 139, 145, 0) 62%, rgba(113, 139, 145, .71) 84%, rgba(113, 139, 145, .95) 94%, #718b91), url('../images/Rezonans-FC_Visual_2_2048px.jpg');
+  background-image: linear-gradient(to bottom, rgba(113, 139, 145, 0) 62%, rgba(113, 139, 145, .71) 84%, rgba(113, 139, 145, .95) 94%, var(--dark-slate-gray)), url('../images/Rezonans-FC_Visual_2_2048px.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -383,7 +423,7 @@ li {
 }
 
 .body {
-  background-color: #718b91;
+  background-color: var(--dark-slate-gray);
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -408,8 +448,8 @@ li {
 }
 
 .darken {
+  background-color: var(--dark-slate-gray-2);
   opacity: .27;
-  background-color: #404047;
   position: fixed;
   top: 0%;
   bottom: 0%;
@@ -439,7 +479,7 @@ li {
 }
 
 .heading {
-  color: #fff;
+  color: var(--white);
   text-align: left;
   text-decoration: none;
 }
@@ -451,18 +491,18 @@ li {
 }
 
 .heading-2 {
-  color: #fff;
+  color: var(--white);
   margin-left: 18px;
 }
 
 .heading-3 {
-  color: #fff;
+  color: var(--white);
   margin-left: 22px;
   text-decoration: none;
 }
 
 .link-2, .link-3 {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -477,7 +517,7 @@ li {
 }
 
 .heading-5, .link-4, .link-5, .link-6 {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -601,15 +641,15 @@ li {
 
 .div_stopka {
   height: 100%;
+  background-color: var(--dark-slate-grey);
   opacity: 1;
-  background-color: rgba(39, 67, 75, .72);
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
 
 .txt_polityka_prywatnosci-2 {
-  color: #fff;
+  color: var(--white);
 }
 
 .logo {
@@ -670,7 +710,7 @@ li {
 }
 
 .nav_desktop {
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   align-items: center;
   padding: 20px 10px;
@@ -680,7 +720,7 @@ li {
 }
 
 .nav_desktop:hover {
-  color: #95b1aa;
+  color: var(--dim-gray-2);
   transform: translate(0, -3px);
 }
 
@@ -689,7 +729,7 @@ li {
 }
 
 .nav_desktop.drop.w--current {
-  color: #fff;
+  color: var(--white);
 }
 
 .nav_desktop.drop._2 {
@@ -734,7 +774,7 @@ li {
 }
 
 .accordian-item-content {
-  background-color: #7ebff8;
+  background-color: var(--light-sky-blue);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   align-self: stretch;
@@ -831,8 +871,8 @@ li {
 }
 
 .heading-4-tytul-zabiegow.regular.right {
+  border-left: 1px solid var(--light-sky-blue);
   text-align: right;
-  border-left: 1px solid #7ebff8;
   flex: none;
   padding-left: 10px;
   padding-right: 0;
@@ -885,7 +925,7 @@ li {
 
 .paragraph-txt-box.r.cena_zastrzezenie {
   width: auto;
-  color: #7ebff8;
+  color: var(--light-sky-blue);
   flex-direction: column;
   align-items: stretch;
   margin-top: 10px;
@@ -945,7 +985,7 @@ li {
 .div-block-56 {
   width: 1px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .div-block-57 {
@@ -984,7 +1024,7 @@ li {
 }
 
 .promocja_txt {
-  color: #f1e8ce;
+  color: var(--sandy-brown);
   text-align: left;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1025,7 +1065,7 @@ li {
 .zadzwon {
   width: 70px;
   height: 70px;
-  background-color: #e64c40;
+  background-color: var(--tomato);
   border-radius: 100px;
   margin-bottom: 140px;
   margin-right: 40px;
@@ -1119,7 +1159,7 @@ li {
 .baner-wskazowki {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(255, 131, 59, .46), rgba(255, 131, 59, .46)), linear-gradient(rgba(113, 139, 145, 0) 63%, #718b91), url('../images/LEONARDO.jpg');
+  background-image: linear-gradient(to bottom, var(--coral), var(--coral)), linear-gradient(to bottom, rgba(113, 139, 145, 0) 63%, var(--dark-slate-gray)), url('../images/LEONARDO.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -1127,7 +1167,7 @@ li {
 }
 
 .link-7, .link-8, .link-9 {
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   white-space: pre-wrap;
 }
@@ -1141,13 +1181,13 @@ li {
 }
 
 .adres-tablet {
-  color: #bec3c7;
+  color: var(--silver);
   text-align: center;
   position: relative;
 }
 
 .text-span, .text-span-2 {
-  color: #fff;
+  color: var(--white);
   text-decoration: underline;
 }
 
@@ -1160,13 +1200,13 @@ li {
 .kreska-100 {
   width: 1px;
   height: 100px;
-  background-color: #bec3c7;
+  background-color: var(--silver);
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .div-block-61 {
-  background-color: rgba(39, 67, 75, .72);
+  background-color: var(--dark-slate-grey);
   padding: 20px 40px;
   display: none;
 }
@@ -1178,7 +1218,7 @@ li {
 }
 
 .mapa_google {
-  background-color: #2e80b6;
+  background-color: var(--steel-blue-2);
 }
 
 .section_google {
@@ -1195,7 +1235,7 @@ li {
 .baner {
   width: 100vw;
   height: 100%;
-  background-image: linear-gradient(rgba(252, 125, 100, 0) 61%, #fc7d64), url('../images/Rezonans-FC_WEB_Kontakt.jpg');
+  background-image: linear-gradient(to bottom, rgba(252, 125, 100, 0) 61%, var(--salmon-2)), url('../images/Rezonans-FC_WEB_Kontakt.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1278,7 +1318,7 @@ li {
 .baner-badania {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, #547b8b), linear-gradient(rgba(180, 86, 126, .8), rgba(0, 192, 177, .76)), url('../images/TLO_FAKE-50.jpg');
+  background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -1286,28 +1326,28 @@ li {
 }
 
 .baner-badania.glowa {
-  background-image: linear-gradient(rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, #547b8b), linear-gradient(rgba(180, 86, 126, .8), rgba(0, 192, 177, .76)), url('../images/RFC-ICONs-Glowa.svg'), url('../images/TLO_FAKE-50.jpg');
+  background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/RFC-ICONs-Glowa.svg'), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%, 50%;
   background-repeat: repeat, repeat, no-repeat, no-repeat;
   background-size: auto, auto, 70% 70%, cover;
 }
 
 .baner-badania.brzuch {
-  background-image: linear-gradient(rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, #547b8b), linear-gradient(rgba(180, 86, 126, .8), rgba(0, 192, 177, .76)), url('../images/RFC-ICONs-Miednica.svg'), url('../images/TLO_FAKE-50.jpg');
+  background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/RFC-ICONs-Miednica.svg'), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%, 50%;
   background-repeat: repeat, repeat, no-repeat, no-repeat;
   background-size: auto, auto, 70% 70%, cover;
 }
 
 .baner-badania.kregoslup {
-  background-image: linear-gradient(rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, #547b8b), linear-gradient(rgba(180, 86, 126, .8), rgba(0, 192, 177, .76)), url('../images/RFC-ICONs-Kregoslup.svg'), url('../images/TLO_FAKE-50.jpg');
+  background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/RFC-ICONs-Kregoslup.svg'), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%, 50%;
   background-repeat: repeat, repeat, no-repeat, no-repeat;
   background-size: auto, auto, 70% 70%, cover;
 }
 
 .baner-badania.staw {
-  background-image: linear-gradient(rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, #547b8b), linear-gradient(rgba(180, 86, 126, .8), rgba(0, 192, 177, .76)), url('../images/RFC-ICONs-Staw.svg'), url('../images/TLO_FAKE-50.jpg');
+  background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/RFC-ICONs-Staw.svg'), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%, 50%;
   background-repeat: repeat, repeat, no-repeat, no-repeat;
   background-size: auto, auto, 70% 70%, cover;
@@ -1324,7 +1364,7 @@ li {
 }
 
 .dropdown_manu {
-  color: #fff;
+  color: var(--white);
   background-color: #27434b;
 }
 
@@ -1370,7 +1410,7 @@ li {
 
 .bx4 {
   height: 190px;
-  background-color: rgba(39, 67, 75, .72);
+  background-color: var(--dark-slate-grey);
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -1437,7 +1477,7 @@ li {
 }
 
 .link-11 {
-  color: #133c49;
+  color: var(--dark-slate-grey-2);
   background-color: rgba(255, 255, 255, .5);
   border-radius: 10px;
   padding: 10px 20px;
@@ -1472,7 +1512,7 @@ li {
   }
 
   .section.badanie.b {
-    background-color: #547b8b;
+    background-color: var(--royal-blue);
   }
 
   .section.kontakt {
@@ -1555,11 +1595,11 @@ li {
 
   .nav-menu {
     width: 100vw;
+    background-color: var(--dark-slate-grey);
     opacity: 1;
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     -webkit-text-fill-color: inherit;
-    background-color: rgba(39, 67, 75, .72);
     background-image: none;
     background-position: 0 0;
     background-repeat: repeat;
@@ -1815,7 +1855,7 @@ li {
 
   .przerywana {
     width: 100vw;
-    border-bottom: 1px dashed #547b8b;
+    border-bottom: 1px dashed var(--royal-blue);
     padding-bottom: 0;
     padding-right: 0;
   }
@@ -1922,7 +1962,7 @@ li {
   }
 
   .bus_nr {
-    background-color: #de4b29;
+    background-color: var(--indian-red);
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
@@ -2034,7 +2074,7 @@ li {
 
   .baner-wskazowki {
     height: 600px;
-    background-image: linear-gradient(rgba(255, 131, 59, .46), rgba(255, 131, 59, .46)), linear-gradient(rgba(113, 139, 145, 0) 63%, #718b91), url('../images/LEONARDO.jpg');
+    background-image: linear-gradient(to bottom, var(--coral), var(--coral)), linear-gradient(to bottom, rgba(113, 139, 145, 0) 63%, var(--dark-slate-gray)), url('../images/LEONARDO.jpg');
     background-position: 0 0, 0 0, 50%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;

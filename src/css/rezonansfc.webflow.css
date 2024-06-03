@@ -38,8 +38,8 @@
 }
 
 body {
-  height: 100%;
   color: var(--white);
+  height: 100%;
   font-family: museo-sans-rounded, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -131,8 +131,8 @@ li {
 }
 
 .button.full-width {
-  width: 100%;
   border-radius: 10px;
+  width: 100%;
   display: block;
 }
 
@@ -188,12 +188,12 @@ li {
 }
 
 .section.reklama {
-  height: 700px;
   background-color: #fff;
   flex-flow: wrap;
   align-content: center;
   justify-content: center;
   align-items: center;
+  height: 700px;
   padding: 0;
   display: flex;
   overflow: hidden;
@@ -271,9 +271,9 @@ li {
 }
 
 .form-field {
-  min-height: 45px;
   border: 0 solid #000;
   border-radius: 10px;
+  min-height: 45px;
   margin-bottom: 17px;
   margin-right: 1px;
   box-shadow: 0 0 0 1px rgba(64, 64, 71, .3);
@@ -284,8 +284,8 @@ li {
 }
 
 .form-field.text-area {
-  min-height: 110px;
   background-color: var(--white);
+  min-height: 110px;
 }
 
 .form-wrapper.squeezed {
@@ -315,9 +315,9 @@ li {
 }
 
 .left-navigation {
+  background-color: rgba(0, 0, 0, 0);
   width: 329px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -375,19 +375,19 @@ li {
 }
 
 .grid-fours {
-  width: 25%;
   float: left;
+  width: 25%;
   padding: 10px;
   display: none;
 }
 
 .banner {
-  width: 100%;
-  height: 100vh;
   background-image: linear-gradient(to bottom, rgba(113, 139, 145, 0) 62%, rgba(113, 139, 145, .71) 84%, rgba(113, 139, 145, .95) 94%, var(--dark-slate-gray)), url('../images/Rezonans-FC_Visual_2_2048px.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+  width: 100%;
+  height: 100vh;
   padding-top: 360px;
 }
 
@@ -434,12 +434,12 @@ li {
 }
 
 .noise {
-  width: 100vw;
-  height: 100%;
   opacity: .4;
   object-fit: none;
   background-image: url('../images/grey-noise-texture.jpg');
   background-size: 400px;
+  width: 100vw;
+  height: 100%;
   position: fixed;
   top: 0%;
   bottom: 0%;
@@ -612,9 +612,9 @@ li {
 }
 
 .stopka {
-  height: 160px;
   background-color: #6b6b6b;
   flex-direction: column;
+  height: 160px;
   display: flex;
   position: static;
   top: auto;
@@ -640,11 +640,11 @@ li {
 }
 
 .div_stopka {
-  height: 100%;
   background-color: var(--dark-slate-grey);
   opacity: 1;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   display: flex;
 }
 
@@ -811,13 +811,13 @@ li {
 }
 
 .round-16 {
-  max-width: 980px;
   background-color: rgba(9, 20, 27, .9);
   border: 1px rgba(255, 255, 255, .6);
   border-radius: 16px;
   flex-direction: column;
   flex: 0 auto;
   align-self: auto;
+  max-width: 980px;
   padding-bottom: 10px;
   display: flex;
   position: relative;
@@ -894,9 +894,9 @@ li {
 }
 
 .image-13 {
+  align-self: center;
   width: 50px;
   height: 60px;
-  align-self: center;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -907,10 +907,10 @@ li {
 }
 
 .paragraph-txt-box {
-  width: 100%;
   color: #8acfdf;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -924,10 +924,10 @@ li {
 }
 
 .paragraph-txt-box.r.cena_zastrzezenie {
-  width: auto;
   color: var(--light-sky-blue);
   flex-direction: column;
   align-items: stretch;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 0;
   margin-right: 0;
@@ -983,9 +983,9 @@ li {
 }
 
 .div-block-56 {
+  background-color: var(--white);
   width: 1px;
   height: 40px;
-  background-color: var(--white);
 }
 
 .div-block-57 {
@@ -1047,9 +1047,9 @@ li {
 }
 
 .kreska_poziom_czerwona_1px {
-  height: 1px;
   opacity: .67;
   background-color: rgba(252, 125, 100, .75);
+  height: 1px;
 }
 
 .italic-text {
@@ -1063,10 +1063,10 @@ li {
 }
 
 .zadzwon {
-  width: 70px;
-  height: 70px;
   background-color: var(--tomato);
   border-radius: 100px;
+  width: 70px;
+  height: 70px;
   margin-bottom: 140px;
   margin-right: 40px;
   transition: height .3s, width .3s;
@@ -1157,12 +1157,12 @@ li {
 }
 
 .baner-wskazowki {
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(to bottom, var(--coral), var(--coral)), linear-gradient(to bottom, rgba(113, 139, 145, 0) 63%, var(--dark-slate-gray)), url('../images/LEONARDO.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
+  width: 100%;
+  height: 100%;
   padding-top: 360px;
 }
 
@@ -1198,9 +1198,9 @@ li {
 }
 
 .kreska-100 {
+  background-color: var(--silver);
   width: 1px;
   height: 100px;
-  background-color: var(--silver);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -1233,12 +1233,12 @@ li {
 }
 
 .baner {
-  width: 100vw;
-  height: 100%;
   background-image: linear-gradient(to bottom, rgba(252, 125, 100, 0) 61%, var(--salmon-2)), url('../images/Rezonans-FC_WEB_Kontakt.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+  width: 100vw;
+  height: 100%;
   padding-top: 360px;
 }
 
@@ -1316,12 +1316,12 @@ li {
 }
 
 .baner-badania {
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(to bottom, rgba(63, 115, 151, 0) 66%, rgba(77, 120, 143, .65) 85%, var(--royal-blue)), linear-gradient(to bottom, var(--medium-violet-red), var(--light-sea-green-3)), url('../images/TLO_FAKE-50.jpg');
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
+  width: 100%;
+  height: 100%;
   padding-top: 360px;
 }
 
@@ -1409,9 +1409,9 @@ li {
 }
 
 .bx4 {
-  height: 190px;
   background-color: var(--dark-slate-grey);
   justify-content: center;
+  height: 190px;
   padding-top: 20px;
   padding-bottom: 15px;
   display: none;
@@ -1426,11 +1426,11 @@ li {
 }
 
 .div-button-home {
-  width: 140px;
   opacity: .95;
   cursor: pointer;
   background-color: #fff;
   border-radius: 20%;
+  width: 140px;
   transition: box-shadow .2s, transform .2s, opacity .2s;
 }
 
@@ -1449,11 +1449,11 @@ li {
 }
 
 .button_home {
-  max-width: 120px;
-  min-width: 140px;
   background-color: #5a5c61;
   border-radius: 20%;
   align-self: stretch;
+  min-width: 140px;
+  max-width: 120px;
 }
 
 .button_home.lab {
@@ -1558,9 +1558,9 @@ li {
   }
 
   .left-navigation {
+    float: none;
     width: 100%;
     height: auto;
-    float: none;
     display: block;
     position: fixed;
     top: 0;
@@ -1594,7 +1594,6 @@ li {
   }
 
   .nav-menu {
-    width: 100vw;
     background-color: var(--dark-slate-grey);
     opacity: 1;
     -webkit-backdrop-filter: blur(20px);
@@ -1607,6 +1606,7 @@ li {
     background-attachment: scroll;
     background-clip: border-box;
     align-items: flex-start;
+    width: 100vw;
     padding-top: 60px;
   }
 
@@ -1659,8 +1659,8 @@ li {
   }
 
   .stopka {
-    height: 550px;
     flex-direction: column;
+    height: 550px;
   }
 
   .div_links_stopka_right_up {
@@ -1854,8 +1854,8 @@ li {
   }
 
   .przerywana {
-    width: 100vw;
     border-bottom: 1px dashed var(--royal-blue);
+    width: 100vw;
     padding-bottom: 0;
     padding-right: 0;
   }
@@ -2050,8 +2050,8 @@ li {
   }
 
   .round-16 {
-    width: auto;
     align-self: stretch;
+    width: auto;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -2073,11 +2073,11 @@ li {
   }
 
   .baner-wskazowki {
-    height: 600px;
     background-image: linear-gradient(to bottom, var(--coral), var(--coral)), linear-gradient(to bottom, rgba(113, 139, 145, 0) 63%, var(--dark-slate-gray)), url('../images/LEONARDO.jpg');
     background-position: 0 0, 0 0, 50%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
+    height: 600px;
     padding-top: 1px;
   }
 
@@ -2120,14 +2120,14 @@ li {
   }
 
   .div-button-home {
+    min-width: auto;
     max-width: 100px;
     min-height: 89px;
-    min-width: auto;
   }
 
   .button_home {
-    max-width: 100px;
     min-width: auto;
+    max-width: 100px;
   }
 }
 

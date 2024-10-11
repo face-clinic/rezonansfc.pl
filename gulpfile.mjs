@@ -33,8 +33,8 @@ gulp.task('txt', function () {
 });
 
 gulp.task('pdf', function () {
-    return gulp.src('src/**/*.pdf')
-        .pipe(gulp.dest('dist/'));
+    return gulp.src('src/documents/*.pdf')
+        .pipe(gulp.dest('dist/documents'));
 });
 
 gulp.task('.htaccess', function () {

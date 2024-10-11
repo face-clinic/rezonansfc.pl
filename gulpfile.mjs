@@ -67,6 +67,7 @@ gulp.task('default', gulp.series(
     'js',
     'html',
     'txt',
+    'pdf',
     '.htaccess',
     'hash'
 ));

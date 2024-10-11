@@ -32,6 +32,11 @@ gulp.task('txt', function () {
         .pipe(gulp.dest('dist/'));
 });
 
+gulp.task('pdf', function () {
+    return gulp.src('src/**/*.pdf')
+        .pipe(gulp.dest('dist/'));
+});
+
 gulp.task('.htaccess', function () {
     return gulp.src('src/.htaccess')
         .pipe(gulp.dest('dist/'));

@@ -22,7 +22,7 @@ gulp.task('js', function () {
 });
 
 gulp.task('img', function () {
-    return gulp.src('src/images/**/*')
+    return gulp.src('src/images/**/*', { encoding: false })
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'));
 });
@@ -33,7 +33,7 @@ gulp.task('txt', function () {
 });
 
 gulp.task('pdf', function () {
-    return gulp.src('src/documents/*.pdf')
+    return gulp.src('src/documents/*.pdf', { encoding: false })
         .pipe(gulp.dest('dist/documents'));
 });
 

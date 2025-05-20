@@ -5,6 +5,7 @@
   --royal-blue: #547b8b;
   --salmon-2: #fc7d64;
   --dim-gray: #735260;
+  --light-sea-green-2: #ece0c6;
   --sandy-brown: #f1e8ce;
   --dark-slate-grey: #27434bb8;
   --dim-gray-2: #95b1aa;
@@ -22,7 +23,6 @@
   --dark-khaki: #a8d069;
   --medium-sea-green: #30ad64;
   --light-sea-green: #25ccbf;
-  --light-sea-green-2: #ece0c6;
   --khaki: #ed8b2d;
   --sandy-brown-2: #deaa5a;
   --salmon: #fd7072;
@@ -243,7 +243,7 @@ li {
 }
 
 .section-heading.centered {
-  color: var(--sandy-brown);
+  color: var(--light-sea-green-2);
   text-align: center;
   text-transform: uppercase;
 }

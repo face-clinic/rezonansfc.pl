@@ -498,6 +498,7 @@ li {
 }
 
 .kontakt-txt-block {
+  color: var(--white);
   text-align: center;
   font-size: 22px;
   line-height: 32px;
@@ -1548,6 +1549,10 @@ li {
 
 .strech {
   flex: 1;
+}
+
+.text-span-4, .text-span-5, .text-span-6 {
+  color: var(--white);
 }
 
 @media screen and (max-width: 991px) {

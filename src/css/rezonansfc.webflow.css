@@ -500,6 +500,7 @@ li {
 .kontakt-txt-block {
   color: var(--white);
   text-align: center;
+  cursor: default;
   font-size: 22px;
   line-height: 32px;
 }
@@ -1025,12 +1026,14 @@ li {
 }
 
 .promocja_tyt {
+  color: var(--white);
   padding-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
 }
 
 .promocja_uwaga {
+  color: var(--white);
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 12px;
@@ -1264,6 +1267,10 @@ li {
   font-weight: 700;
   line-height: 40px;
   overflow: hidden;
+}
+
+.nad_logo.home {
+  color: var(--white);
 }
 
 .link-10 {
@@ -1551,7 +1558,7 @@ li {
   flex: 1;
 }
 
-.text-span-4, .text-span-5, .text-span-6 {
+.text-span-5, .text-span-6 {
   color: var(--white);
 }
 

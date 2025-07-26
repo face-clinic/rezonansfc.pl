@@ -1,5 +1,4 @@
 :root {
-  --white: white;
   --firebrick: #84362e;
   --coral: #ff833b75;
   --royal-blue: #547b8b;
@@ -7,6 +6,7 @@
   --dim-gray: #735260;
   --light-sea-green-2: #ece0c6;
   --sandy-brown: #f1e8ce;
+  --white: white;
   --dark-slate-grey: #27434bb8;
   --dim-gray-2: #95b1aa;
   --dark-slate-gray: #718b91;
@@ -35,15 +35,6 @@
   --steel-blue-3: #0073c280;
   --steel-blue-4: #3f7397;
   --light-slate-grey: #7b9dac;
-}
-
-body {
-  color: var(--white);
-  height: 100%;
-  font-family: museo-sans-rounded, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 20px;
 }
 
 h1 {
@@ -500,6 +491,7 @@ li {
 .kontakt-txt-block {
   color: var(--white);
   text-align: center;
+  cursor: default;
   font-size: 22px;
   line-height: 32px;
 }
@@ -1551,16 +1543,11 @@ li {
   flex: 1;
 }
 
-.text-span-4, .text-span-5, .text-span-6 {
+.text-span-5, .text-span-6 {
   color: var(--white);
 }
 
 @media screen and (max-width: 991px) {
-  body {
-    margin-left: 0;
-    padding-left: 0;
-  }
-
   .hamburger-button {
     color: #fff;
     background-color: #0000;
